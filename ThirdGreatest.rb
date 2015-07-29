@@ -9,7 +9,7 @@ def ThirdGreatest(strArr)
   
   a = hash.sort.reverse[2][1]
   
-  return hash.select {|k,v| v==a}[0][1]
+  return hash.select {|k,v| v==a}[0][0]
   
   #return a
          
