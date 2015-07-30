@@ -12,7 +12,7 @@ def OffLineMinimum(strArr)
   end
       
   
-return result
+return result.join(",")
          
 end
    
